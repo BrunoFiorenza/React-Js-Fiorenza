@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    padding: 25px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.cartwidget{
+    text-align: end;
+    margin: 20px;
+    font-size: 25px;
+}
