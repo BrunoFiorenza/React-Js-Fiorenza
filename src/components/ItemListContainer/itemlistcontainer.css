@@ -1,0 +1,32 @@
+.itemlistcontainer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.itemlistcontainer .itemlist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.itemlistcontainer .item{
+    width: 450px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item .img-item{
+    width: 100%;
+    border-radius: 5px;
+}
+.item .text-item{
+padding: 5px;
+}
+
+h1{
+    text-align: center;
+}

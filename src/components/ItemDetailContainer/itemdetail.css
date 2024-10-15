@@ -1,0 +1,31 @@
+.item-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+}
+.images-detail-container{
+    width: 60%;
+}
+
+.images-detail-container .main-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-detail-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.title-detail{
+    padding: 10px 0;
+    font-size: 3rem;
+}
+.text-detail{
+    padding: 10px 0;
+    font-size: 1.3rem;
+    color: white;
+}
